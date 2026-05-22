@@ -1,0 +1,9 @@
+figures/
+henon-heiles/data/
+henon-heiles/logs/
+henon-heiles/__pycache__/
+
+*.dat
+*.txt
+*.log
+pyproject.toml
