@@ -9,6 +9,5 @@ paradigm_hamiltonian/c/build/
 
 .DS_Store
 *.dat
-*.txt
 *.log
 pyproject.toml
