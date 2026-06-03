@@ -2,6 +2,10 @@ figures/
 henon_heiles/data/
 henon_heiles/logs/
 henon_heiles/__pycache__/
+henon_heiles/c/bin/
+henon_heiles/c/build/
+paradigm_hamiltonian/c/bin/
+paradigm_hamiltonian/c/build/
 
 .DS_Store
 *.dat
