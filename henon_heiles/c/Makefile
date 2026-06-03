@@ -50,7 +50,7 @@ ifeq ($(USE_OMP),1)
     else ifneq ($(IS_APPLE_CLANG),)
         # Apple clang: plain -fopenmp does not work
         # Assumes libomp installed, e.g. via Homebrew
-        OMP_PREFIX ?= /opt/homebrew/opt/libomp
+		OMP_PREFIX ?= $(shell brew --prefix libomp 2>/dev/null)
 
         CPPFLAGS  += -I$(OMP_PREFIX)/include
         CFLAGS    += -Xpreprocessor -fopenmp

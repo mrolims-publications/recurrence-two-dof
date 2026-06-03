@@ -35,7 +35,7 @@ def compute_lle_row(i, y_val, py_vals, energy, t_total):
             continue
 
         p[0] = px
-        lle_row[j] = ds.lyapunov(q, p, t_total, num_exponents=1)[0]
+        lle_row[j] = ds.lyapunov(q, p, t_total, num_exponents=1)
         info_row[j] = 0
 
     elapsed = time.perf_counter() - start

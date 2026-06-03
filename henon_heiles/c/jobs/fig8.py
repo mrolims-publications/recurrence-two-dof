@@ -21,7 +21,7 @@ def main():
         return 1
 
     energies = np.linspace(1 / 10, 1 / 6, 50)
-    total_time = int(1e9)
+    total_time = int(1e10)
     finite_time = 400
     save_pss = 0
 

@@ -28,7 +28,7 @@ def compute_lle_for_y(i, y_val, energy, t_total):
 
     p[0] = px
     ds = HamiltonianSystem(model="henon heiles")
-    lle_val = ds.lyapunov(q, p, t_total, num_exponents=1)[0]
+    lle_val = ds.lyapunov(q, p, t_total, num_exponents=1)
 
     elapsed = time.perf_counter() - start
     return i, y_val, lle_val, elapsed, 0
