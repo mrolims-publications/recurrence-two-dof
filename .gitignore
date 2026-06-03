@@ -1,8 +1,9 @@
 figures/
-henon-heiles/data/
-henon-heiles/logs/
-henon-heiles/__pycache__/
+henon_heiles/data/
+henon_heiles/logs/
+henon_heiles/__pycache__/
 
+.DS_Store
 *.dat
 *.txt
 *.log
